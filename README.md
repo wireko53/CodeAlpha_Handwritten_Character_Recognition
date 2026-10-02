@@ -67,9 +67,9 @@ pip install tensorflow numpy matplotlib seaborn scikit-learn
 
 ### Execution
 
-Open `handwritten_recognition.ipynb` in VS Code or Jupyter and run the cells top to bottom.
+Open `character_recognition.ipynb` in VS Code or Jupyter and run the cells top to bottom.
 
-The notebook loads and preprocesses MNIST, builds and trains the CNN, then prints the evaluation report alongside a confusion matrix plot.
+The notebook loads and preprocesses MNIST, builds and trains the CNN, prints the evaluation report alongside a confusion matrix plot, and saves the trained model to disk as `handwritten_character_model.keras` for later reuse without retraining.
 
 ---
 
